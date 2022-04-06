@@ -5,9 +5,9 @@ var myFood ={
 }
 
 function myFunction(myObj) {
-	var vegetableValue = myObj["vegetable"];
-	var fruitValue = myObj["fruit"];
-	var drinkValue = myObj["drink"];
+	var vegetableValue = myFood["vegetable"];
+	var fruitValue = myFood["fruit"];
+	var drinkValue = myFood["drink"];
 	return {vegetableValue, fruitValue, drinkValue};
 }
 console.log(myFood);

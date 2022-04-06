@@ -6,7 +6,7 @@ var myPet = {
 }
 function myFunction(Obj) {
 	return Obj;
-};
+}
 console.log(myFunction(myPet));
 module.exports = { myPet, myFunction};
 

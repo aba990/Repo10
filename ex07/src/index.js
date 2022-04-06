@@ -5,7 +5,7 @@ function myFunction(roar) {
     tails: 1,
     roar: "roar-roar"
         
-};
+}
 delete lion.roar;
 return lion;
 }

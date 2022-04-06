@@ -1,4 +1,5 @@
-Function myFunction(myObj, checkProp) {
+function myFunction(myObj, checkProp) {
+	
 	
 
 	return "Change Me!";

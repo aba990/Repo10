@@ -3,13 +3,12 @@ var myClothes = {
 	shirt: "Nike",
 	shoes: "Converse"
 }
-function myFunction(myClothes) {
+function myFunction(myObj) {
 		var hatValue = myClothes.hat;
 		var shirtValue = myClothes.shirt;
 		var shoesValue = myClothes.shoes;
 	
 	return{hatValue, shirtValue, shoesValue};
 }
-console.log(myClothes);
+console.log(myFunction(myClothes));
 module.exports = myFunction(myClothes);
-cd 
