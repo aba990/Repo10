@@ -12,3 +12,4 @@ function myFunction(myClothes) {
 }
 console.log(myClothes);
 module.exports = myFunction(myClothes);
+cd 
