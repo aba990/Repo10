@@ -19,10 +19,13 @@ function myFunction() {
 				1: "DVD",
 				2: "MP3",
 				3: "EP"
-			}
-		}
+			},
+			gold: false
+		},
 	};
 		return myMusic;
 	}
 console.log(myFunction()[2]);
+
+myFunction()[2];
 module.exports = myFunction;
