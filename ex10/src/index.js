@@ -16,7 +16,7 @@ function myFunction() {
 			title: "Sunce",
 			release_year: 2012,
 			formats: {
-				1: "CD",
+				1: "DVD",
 				2: "MP3",
 				3: "EP"
 			}
@@ -24,5 +24,5 @@ function myFunction() {
 	};
 		return myMusic;
 	}
-myFunction()[2];
+console.log(myFunction()[2]);
 module.exports = myFunction;
