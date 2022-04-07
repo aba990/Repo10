@@ -3,7 +3,7 @@ var lion = {
 	legs: 4,
 	tails: 1
 	
-}	
+};	
 function myFunction(dva, tri) {
       lion[dva] = tri;
 	  return lion;

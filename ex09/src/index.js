@@ -2,7 +2,7 @@ var myObj = {
 	title: "Titanic",
 	song: "My Heart Will Go on",
 	genre: "Drama"
-}
+};
 
 function myFunction(myObj, checkProp) {
 	if(myObj.hasOwnProperty(checkProp)){
